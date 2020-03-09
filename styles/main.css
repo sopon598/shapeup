@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid steelblue;
+    box-shadow: 5px 5px 10px 10px gray;
+}
+section {
+    float: right;
+    width: 60%;
+}
+header {
+  background-image: linear-gradient(steelblue, white);
+  padding: 1.5em 0;
+}
+header h2 {
+    font-size: 250%;
+    margin: .5em 0;
+    font-style: italic;
+    color: steelblue;
+    text-shadow: 2px 2px 8px steelblue;
+}
+/* nav bar formatting */
+#nav_menu ul {
+  list-style: none;
+  position: relative;
+}
+#nav_menu ul li {
+  display: block;
+  float: left;
+  width: 20%;
+}
+#nav_menu ul li a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background-color: steelblue;
+  color: white;
+  font-weight: bold;
+  padding: 1em 0;
+}
+#nav_menu ul li a:hover {
+  background-color: lightsteelblue;
+  color: yellow;
+}
+#nav_menu ul ul {
+  display: none;
+  position: absolute;
+  width: 100%;
+}
+#nav_menu ul ul li {
+  float: none;
+}
+#nav_menu ul ul li a {
+  text-align: left;
+  padding-left: .25em;
+}
+#nav_menu ul li:hover > ul {
+  display: block;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+header h3 {
+    font-size: 150%;
+    margin: .5em 0;
+}
+header img {
+  float: left;
+  margin-right: 2em;
+}
+section h2 {
+  margin: .5em 0;
+  padding: 0 1em;
+}
+section h3 {
+  padding: 0 1em;
+}
+h1 {
+    font-size: 175%;
+    padding: 0 1em;
+}
+p {
+  margin: 1em 0;
+  padding: 0 1em;
+}
+ 
+/* psuedo classes for section */
+/* unvisited link */
+section a:link {
+    color: maroon;
+  }
+  
+  /* visited link */
+  section a:visited {
+    color: maroon;
+  }
+  
+  /* mouse over link */
+  section a:hover {
+    color: steelblue;
+  }
+  
+  /* selected link */
+  section a:active {
+    color: steelblue;
+  }
+  blockquote {
+    margin: 0 2em;
+    padding: 0 .5em;
+    font-size: 90%;
+    font-style: italic;
+    border-left: 5px solid maroon;
+    background-color: navajowhite;
+  }
+  aside {
+    float: left;
+    width: 40%;
+    margin-top: 1em;
+  }
+  aside a {
+    font-weight: bold;
+  }
+ 
+  /* psudo classes for aside */
+  /* unvisited link */
+aside a:link {
+  color: steelblue;
+}
+ 
+/* visited link */
+aside a:visited {
+  color: steelblue;
+}
+ 
+/* mouse over link */
+aside a:hover {
+  color: maroon;
+}
+ 
+/* selected link */
+aside a:active {
+  color: maroon;
+}
+aside ul {
+  line-height: 25px;
+  margin-left: 3em;
+  margin-top: 1em;
+}
+aside h2 {
+  padding: 0 1em;
+}
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 80%;
+  font-variant: small-caps;
+  border-top: 1px solid steelblue;
+  margin-top: 1.5em;
+  padding: 1.5em 0;
+  background-color: steelblue;
+  color: white;
+}
+
